@@ -5,13 +5,4 @@
       <span class="badge">{{hero.id}}</span>{{ hero.name }}</li>
   </ul>
 </div>
-<hr>
-<mat-selection-list #shoes>
-    <mat-list-option *ngFor="let hero of heroes">
-      {{hero.name}}
-    </mat-list-option>
-  </mat-selection-list>
 
-  <p>
-    Options selected: {{shoes.selectedOptions.selected.length}}
-  </p>
